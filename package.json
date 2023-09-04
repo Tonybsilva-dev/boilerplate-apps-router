@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && npm run prettier",
-    "prettier": "npx prettier src/ --write"
+    "lint": "next lint",
+    "prettier": "npx prettier src/ --write",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -29,6 +30,11 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
     "git-commit-msg-linter": "^5.0.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "3.0.3"
-  }
+  },
+    "lint-staged": {
+      "**/*": "prettier --write --ignore-unknown"
+    }
 }
