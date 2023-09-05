@@ -6,4 +6,4 @@ const Main = () => (
   </S.Wrapper>
 );
 
-export { Main };
+export default Main;
