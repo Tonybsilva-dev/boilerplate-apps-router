@@ -1,59 +1,115 @@
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Tonybsilva-dev/boilerplate-apps-router">
+    <img src="https://i.imgur.com/gRQHNZc.png" alt="Logo">
+  </a>
 
-## What is inside?
+  <h3 align="center">Boilerplate</h3>
 
-This project uses lot of stuff as:
+  <p align="center">
+    Next 13 with apps router.
+    <br />
+    <a href="https://tonybsilvadev.gitbook.io/the-coffee-class/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://app.the-coffee-class.com.br/">View Demo</a>
+    ·
+    <a href="https://github.com/Tonybsilva-dev/boilerplate-apps-router/issues">Report Bug / Feature</a>
+  </p>
+</p>
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
+This is a Next.js boilerplate to start a Next.js project.
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is an example of how to list things you need to use the software and how to install them.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* npm
 
-## Commands
+  ```sh
+  npm install npm@latest -g
+  ```
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+### Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/Tonybsilva-dev/boilerplate-apps-router.git
+   ```
+
+2. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+<!-- USAGE EXAMPLES -->
+## Usage script commands
+
+* `dev`: runs your application on `localhost:3000`
+* `build`: creates the production build version
+* `start`: starts a simple server with the build production code
+* `lint`: runs the linter in all components and pages
+* `test`: runs jest to test all components and pages
+* `test:watch`: runs jest in watch mode
+* `storybook`: runs storybook on `localhost:6006`
+* `build-storybook`: create the build version of storybook
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+* [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- ROADMAP -->
+## Roadmap
 
-## Deploy on Vercel
+See the [open issues](https://github.com/Tonybsilva-dev/boilerplate-apps-router/issues) for a list of proposed features (and known issues).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- CONTACT -->
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ <table>
+  <tr>
+    <td align="center"><a href="https://github.com/Tonybsilva-dev"><img src="https://avatars.githubusercontent.com/u/54373473?v=4" width="100px;" alt=""/><br /><sub><b>Antonio Silva</b></sub></a><br /><a href="https://github.com/Tonybsilva-dev/boilerplate-apps-router/commits?author=Tonybsilva-dev" title="Documentation">📖</a> <a href="https://github.com/Tonybsilva-dev/boilerplate-apps-router/pulls?q=is%3Apr+reviewed-by%3ATonybsilva-dev" title="Reviewed Pull Requests">👀</a></td>
+ </tr>
+</table>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Tonybsilva-dev/boilerplate-apps-router.svg?style=for-the-badge
+[contributors-url]: https://github.com/Tonybsilva-dev/boilerplate-apps-router/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Tonybsilva-dev/boilerplate-apps-router.svg?style=for-the-badge
+[forks-url]: https://github.com/Tonybsilva-dev/boilerplate-apps-router/network/members
+[stars-shield]: https://img.shields.io/github/stars/Tonybsilva-dev/boilerplate-apps-router.svg?style=for-the-badge
+[stars-url]: https://github.com/Tonybsilva-dev/boilerplate-apps-router/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Tonybsilva-dev/boilerplate-apps-router.svg?style=for-the-badge
+[issues-url]: https://github.com/Tonybsilva-dev/boilerplate-apps-router/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/tony-silva/
